@@ -16,7 +16,7 @@ URL using HTML Form Post Method)
  
 Don’t have an BC or PGPay Merchant account? [Sign Up](https://www.pg-pay.com/signup.php). 
 
-### Key
+## Codes
 
 Once BC Merchant already provide BC Account Number and backend url, PGPay will provide the following:
 
