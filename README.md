@@ -10,11 +10,20 @@ For full usage details, see the [PGPay Merchant Manual](https://bullioncurrencie
 
 BC or PGPay Merchant needs to provide the following to PGPay when the merchant starts to integrate with PGPay payment Gateway API:
 
-- BC Account Number (must be a merchant account type).
-- Backend url (PGPAY Payment System will responds the Payment Result to that Backend
+- **BC Account Number** (must be a merchant account type).
+- **Backend url** (PGPAY Payment System will responds the Payment Result to that Backend
 URL using HTML Form Post Method)
  
 Don’t have an BC or PGPay Merchant account? [Sign Up](https://www.pg-pay.com/signup.php). 
+
+### Key
+
+Once BC Merchant already provide BC Account Number and backend url, PGPay will provide the following:
+
+- **merchant_code**
+- **merchant_key** (Use to match and verify PGPay POST response.)
+- **merchant_secret**
+- **x-api-key**
 
 ## Quickstart
 
