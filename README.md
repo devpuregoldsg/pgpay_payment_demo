@@ -11,8 +11,7 @@ For full usage details, see the [PGPay Merchant Manual](https://bullioncurrencie
 BC or PGPay Merchant needs to provide the following to PGPay when the merchant starts to integrate with PGPay payment Gateway API:
 
 - **BC Account Number** (must be a merchant account type).
-- **Backend url** (PGPAY Payment System will responds the Payment Result to that Backend
-URL using HTML Form Post Method)
+- **Backend url** (PGPAY Payment System will responds the payment results to Backend URL using POST Method)
  
 Don’t have an BC or PGPay Merchant account? [Sign Up](https://www.pg-pay.com/signup.php). 
 
@@ -33,13 +32,13 @@ Prepare the required payment request parameters at `index.php`
 
 ```html
 <!--Transaction amount to pay SGD  -->
-<input type="hidden" name="amount" class="form-control" value="" />
+<input type="hidden" name="amount" value="" />
 
 <!--Unique transaction issued by merchant-->
-<input type="hidden" name="transaction_id" class="form-control" value="" />	
+<input type="hidden" name="transaction_id" value="" />	
 
 <!--Merchant Code that is provided by PGPay-->
-<input type="hidden" name="merchant_code" class="form-control" value="" />
+<input type="hidden" name="merchant_code" value="" />
 
 <!--A url back to merchant.-->
 <input type="hidden" name="response_url" value="" /> 
